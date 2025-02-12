@@ -1,4 +1,12 @@
-/* Responsive design starts here */
+@media (max-width: 1024px) {
+  .footer-section {
+    flex-direction: column;
+  }
+
+  .footer {
+    width: 100%;
+  }
+}
 @media (max-width: 1023px) {
   header {
     padding: 0.6rem 3.9rem;
@@ -108,8 +116,49 @@
     z-index: 5;
     display: none;
   }
-}
 
+  .partners-section {
+    padding: 3.8rem 5.9rem;
+    text-align: left;
+  }
+
+  .partners-section p {
+    font-size: 1rem;
+  }
+
+  .partner-logos img {
+    height: 3.2rem;
+    width: 100%;
+  }
+
+  .thesis-section {
+    flex-flow: column nowrap;
+  }
+
+  .thesis-text {
+    width: 60%;
+  }
+
+  .thesis-img {
+    width: 70%;
+  }
+
+  .thesis-text {
+    width: 610px;
+  }
+
+  .thesis-img img {
+    max-width: 100%;
+  }
+
+  .mission-section {
+    flex-flow: column nowrap;
+  }
+
+  .footer-container {
+    padding: 4.6rem 3.9rem;
+  }
+}
 
 @media (max-width: 799px) {
   .portfolio-section {
@@ -120,6 +169,55 @@
     flex-direction: column;
     gap: 2rem;
     align-items: flex-start;
+  }
+
+  .partners-section {
+    padding: 3rem 3.9rem;
+    text-align: left;
+    background-color: #ffffff;
+  }
+
+  .partners-section h3 {
+    color: #101828;
+    font-size: 2rem;
+  }
+
+  .partner-logos img {
+    height: 2rem;
+    width: 30%;
+  }
+
+  .thesis-section {
+    padding: 3rem 3.9rem;
+  }
+
+  .thesis-text {
+    width: 60%;
+  }
+
+  .thesis-img {
+    width: 70%;
+  }
+
+  .thesis-text {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .thesis-text h3 {
+    font-size: 1.9rem;
+  }
+
+  .footer-container {
+    padding: 4.6rem 3.9rem;
+    background-color: #001d00;
+    color: white;
+  }
+}
+
+@media (max-width: 600px) {
+  .thesis-img {
+    width: 100%;
   }
 }
 
@@ -154,10 +252,71 @@
   .portfolio-section {
     padding: 3.8rem 0.8rem;
   }
+
+  .partners-section {
+    padding: 3rem 0.8rem;
+  }
+
+  .thesis-section {
+    padding: 3rem 0.8rem;
+  }
+
+  .thesis-text p {
+    width: auto;
+  }
+
+  .thesis-text h3 {
+    font-size: 1.6rem;
+  }
+
+  .mission-section {
+    flex-flow: column nowrap;
+    padding: 2.6rem 0.8rem;
+  }
+
+  .footer-container {
+    padding: 4.6rem 0.8rem;
+  
+  }
 }
 
-@media (max-width: 321px) {
+@media (max-width: 450px) {
   .logo img {
     height: 40px;
+  }
+
+  .partners-section h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .partners-section p {
+    font-size: 1.1rem;
+  }
+
+  .partner-logos img {
+    height: 1.7rem;
+    width: auto;
+    gap: 1rem;
+  }
+
+  .mission-section {
+    padding: 2.6rem 0.9rem;
+  }
+
+  .mission-img {
+    width: 100%;
+  }
+
+  .mission-text {
+    width: 100%;
+  }
+
+  .mission-text h3 {
+    font-size: 2rem;
+  }
+
+  .mission-text p {
+    font-size: 1.1rem;
   }
 }

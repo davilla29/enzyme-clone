@@ -171,7 +171,7 @@
 .partners-section {
   text-align: center;
   background-color: #ffffff;
-  padding: 4.9rem 0;
+  padding: 3.8rem 5.9rem;
 }
 
 .partners-section h3 {
@@ -181,26 +181,37 @@
 
 .partners-section p {
   color: #606060;
+  font-size: 1.2rem;
+  width: 100%;
 }
 
 .partner-logos {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 3rem;
+  margin-top: 2rem;
 }
 
-.partners-section img {
-  height: 4rem;
+.partner-logos img {
+  width: 100px;
+  height: auto;
+  transition: 0.3s ease, transform 0.3s ease;
+}
+
+.partner-logos img:hover {
+  transform: scale(1.1);
 }
 
 /* Thesis Section */
 .thesis-section {
   background-color: #1ea916;
   max-width: auto;
-  height: 100%;
+  max-height: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 4.6rem 5.9rem 0;
+  align-items: center;
+  padding: 2rem 5.9rem 2rem;
   color: white;
 }
 
@@ -210,16 +221,16 @@
 
 .thesis-img {
   width: 40%;
+  flex-shrink: 0;
 }
 
 .thesis-text {
   width: 610px;
-  flex-shrink: 0;
 }
 
 .thesis-text h3 {
   width: 90%;
-  margin-top: 2rem;
+  margin-top: 0.4rem;
   font-size: 2.8rem;
   line-height: 1.2;
 }
@@ -230,6 +241,7 @@
   line-height: 1.5;
   width: 90%;
   margin-bottom: 2.4rem;
+  text-align: left;
 }
 
 .thesis-img img {
@@ -240,7 +252,7 @@
 }
 
 .btn-4 {
-  color: #1EA916;
+  color: #1ea916;
   font-size: 1rem;
 }
 
@@ -252,12 +264,13 @@
   height: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 2.6rem 10.9rem;
+  align-items: center;
+  padding: 2.4rem 9.2rem;
   color: white;
 }
 
 .mission-img {
-  width: 40%;
+  width: 45%;
 }
 
 .mission-text {
@@ -268,24 +281,88 @@
   width: 100%;
 }
 
-/* .mission-text {
+.mission-text {
   margin-left: 3rem;
-} */
+}
 
 .mission-text h3 {
   color: #000000;
   font-size: 2.2rem;
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
 }
 
 .mission-text p {
   color: #475467;
-  font-size: 1.1rem;
-  line-height: 1.7;
-  margin-top: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 0.4rem 0 1rem 0;
 }
 
-.mission-btn{
-  margin-top: .5rem;
-  color: #1EA916;
+.mission-text a {
+  /* border: 2px solid red; */
+  color: #1ea916;
+}
+
+/* NewsLeters Section */
+.newsletter-section {
+  padding: 5.6rem 5.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #045103;
+  color: white;
+}
+
+.newsletter-text {
+  width: 61%;
+}
+
+.newsletter-input {
+  width: 39%;
+}
+
+.newsletter-text h3 {
+  font-size: 1.7rem;
+}
+
+.newsletter-text p {
+  margin-top: 0.6rem;
+  font-size: 1rem;
+  width: auto;
+}
+
+form {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.form-input,
+.form-btn {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 0.4rem;
+}
+
+.form-input {
+  width: 70%;
+  font-size: 1rem;
+}
+
+.form-btn {
+  width: 30%;
+  background-color: #d0fccf;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #344054;
+}
+
+.form-btn:active,
+.form-input:focus {
+  outline: none;
+}
+
+.form-btn:hover {
+  background-color: #00a96e;
+  cursor: pointer;
 }
