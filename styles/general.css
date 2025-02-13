@@ -85,7 +85,7 @@ header {
   display: flex;
   justify-content: center;
   flex-flow: row nowrap;
-  width: 100%;
+  width: auto;
   gap: 3rem;
 }
 
@@ -99,7 +99,7 @@ header {
   margin-top: 1rem;
   flex-flow: column wrap;
   list-style: none;
-  gap: 0.4rem;
+  gap: 1rem;
 }
 
 .footer-container a,
@@ -109,8 +109,9 @@ header {
   color: white;
 }
 
-.contact-us li i, .locations li i {
-  margin-right: 0.2rem;
+.contact-us li i,
+.locations li i {
+  margin-right: 0.4rem;
 }
 
 .footer-container a:hover {
