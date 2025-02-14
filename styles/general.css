@@ -3,24 +3,32 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: "Poppins", serif;
 }
 
+main {
+  margin-top: 4.3rem; /* To give space at the bottom of the header and at the top of the main contents*/
+}
+
 /* Header Styling */
 header {
-  /* position: fixed;
+  position: fixed;
   top: 0;
-  left: 0; */
+  /* left: 0; */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
   /* border: 2px solid red; */
-  /* width: 85%; */
-  /* margin: 1.2rem auto; */
+  /* height: 4rem; */
+  width: 100%;
   padding: 0.6rem 5.9rem;
+  margin: 0 auto;
+  z-index: 1000;
 }
 
 .logo img {
