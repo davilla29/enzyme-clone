@@ -1,5 +1,5 @@
 /* Text Section */
-.text-section {
+.portfolio-hero-section {
   background-color: #045103;
   /* height: 20rem; */
   padding: 3.2rem 16rem;
@@ -7,11 +7,11 @@
   color: white;
 }
 
-.text-section h2 {
+.portfolio-hero-section h2 {
   font-size: 4rem;
 }
 
-.text-section p {
+.portfolio-hero-section p {
   width: 100%;
   font-size: 1.2rem;
   margin: 1.7rem 0 1rem 0;
@@ -21,6 +21,7 @@
 .images-section {
   padding: 2.6rem 5.9rem;
   background-color: #fff;
+  width: 100%;
 }
 
 .images {
@@ -33,11 +34,13 @@
   width: 100%;
   height: 8rem;
   background-color: #f8f8f8;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 50% 60%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0.1rem 4.8rem;
 }
+
+.image-box img {
+  object-fit: contain;
+}
+
+

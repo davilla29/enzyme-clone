@@ -37,47 +37,6 @@
   margin-bottom: 2.4rem;
 }
 
-.hero-btns {
-  /* margin-bottom: 2rem; */
-  display: flex;
-  gap: 1rem;
-}
-
-.hero-btns a {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.2rem;
-  text-decoration: none;
-  padding: 10px 15px;
-}
-
-.hero-btns a i {
-  font-size: 1.2rem;
-}
-
-.btn {
-  text-decoration: none;
-  color: #043203;
-  font-weight: bold;
-  background-color: white;
-  padding: 1rem 1rem;
-  border-radius: 3rem;
-  font-size: 1.2rem;
-}
-
-.btn-2 {
-  background-color: #043203;
-  color: white;
-  border: 2px solid white;
-  padding: 1rem 1.9rem;
-  /* margin-left: 0.9rem; */
-}
-
-.btn:hover {
-  background-color: #00a96e;
-  color: white;
-}
-
 .hero-img img {
   height: 490px;
   max-width: 100%;
