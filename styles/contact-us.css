@@ -1,17 +1,19 @@
-main {
+
+.contact-section {
   position: relative;
+  background-color: #d0fccf;
+  padding: 6rem 0;
+  margin-bottom: 33rem;
 }
 
 .contact-text {
-  background-color: #d0fccf;
   text-align: center;
-  padding: 6rem 0;
   height: auto;
 }
 
 .contact-section h2 {
   color: #000000;
-  margin-top: 3rem;
+  margin-top: 1rem;
   font-size: 5rem;
 }
 
@@ -22,16 +24,68 @@ main {
 }
 
 .contact-form-section {
-  /* position: absolute; */
-  top: 22rem;
+  position: absolute;
+  top: 24rem;
   left: 0;
   right: 0;
-  /* bottom: 34rem; */
   margin: auto;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   display: flex;
-  width: 70%;
+  gap: 2.5rem;
+  width: 85%;
   height: auto;
   border-radius: 1.6rem;
-  padding: 0.6rem 5.9rem;
+  padding: 1.6rem 2.9rem;
+  /* box-shadow: 0px 4px 10px #5b5d5f; */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+
+.contact-form-section img {
+  border-radius: 1.6rem;
+}
+
+form {
+  flex: 1;
+  /* padding: 20px; */
+  /* background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+  text-align: left;
+  width: 100%;
+  max-width: 500px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  /* border-radius: 5px; */
+}
+
+form button {
+  width: 100%;
+  background: #009688;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  background: #00796b;
+}
+
+footer {
+  margin-top: 41rem;
 }
