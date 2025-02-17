@@ -3,7 +3,7 @@
   background-image: url("../assets/images/header-background.png");
   background-repeat: no-repeat;
   /* background-position: center; */
-  /* background-size: contain; */
+  background-size: contain;
   background-size: auto;
   /* height: 70rem; */
   padding: 0.6rem 5.9rem;
@@ -23,9 +23,10 @@
   margin-bottom: 2rem;
 }
 
-.hero-btns {
+.partner-btns {
   justify-content: center;
-  margin-bottom: 4rem;
+  flex-direction: row;
+  /* margin-bottom: 4rem; */
 }
 
 .btn-5 {
@@ -34,7 +35,13 @@
 
 /* Partners Section */
 .partners-section {
-  padding: 0.6rem 5.9rem;
+  padding: 0.6rem 5.9rem 4.6rem;
+}
+
+.partners-section h2 {
+  text-align: center;
+  margin: 1rem 0 2rem 0;
+  font-size: 2.5rem;
 }
 
 /* Partners Information */
@@ -45,15 +52,33 @@
   width: 100%;
 }
 
+.partners-information img {
+  width: 100%;
+}
+
+.partners-information h3 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
 .partners-information p {
   width: 100%;
   font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.partners-link {
+  margin-top: 1rem;
+  color: #045103;
+}
+
+.partners-link a {
+  text-decoration: none;
+  color: #045103;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 @media (max-width: 1000px) {
-  .partners-information {
-    
-    grid-template-columns: repeat(1, 1fr);
-    gap: 3.5rem;
-  }
+ 
 }

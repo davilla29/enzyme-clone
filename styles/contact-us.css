@@ -1,8 +1,6 @@
 main {
   position: relative;
 }
-/* .contact-section {
-} */
 
 .contact-text {
   background-color: #d0fccf;
@@ -24,16 +22,17 @@ main {
 }
 
 .contact-form-section {
-  position: absolute;
+  /* position: absolute; */
   top: 22rem;
   left: 0;
   right: 0;
+  /* bottom: 34rem; */
   margin: auto;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: flex;
   width: 70%;
   height: auto;
   border-radius: 1.6rem;
   padding: 0.6rem 5.9rem;
-    box-shadow: 5px 10px 8px #888888;
+  box-shadow: 5px 10px 8px #888888;
 }
