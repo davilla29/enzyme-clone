@@ -1,17 +1,18 @@
-main {
+.contact-section {
   position: relative;
+  background-color: #d0fccf;
+  padding: 6rem 0;
+  margin-bottom: 33rem;
 }
 
 .contact-text {
-  background-color: #d0fccf;
   text-align: center;
-  padding: 6rem 0;
   height: auto;
 }
 
 .contact-section h2 {
   color: #000000;
-  margin-top: 3rem;
+  margin-top: 1rem;
   font-size: 5rem;
 }
 
@@ -22,17 +23,87 @@ main {
 }
 
 .contact-form-section {
-  /* position: absolute; */
-  top: 22rem;
+  position: absolute;
+  top: 24rem;
   left: 0;
   right: 0;
-  /* bottom: 34rem; */
   margin: auto;
   background-color: #ffffff;
   display: flex;
-  width: 70%;
+  gap: 2.5rem;
+  width: 90%;
   height: auto;
   border-radius: 1.6rem;
-  padding: 0.6rem 5.9rem;
-  box-shadow: 5px 10px 8px #888888;
+  padding: 1.6rem 2.9rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form-section img {
+  border-radius: 1.6rem;
+}
+
+form {
+  flex: 1;
+  text-align: left;
+  width: 100%;
+  max-width: 500px;
+}
+
+form label {
+  display: block;
+  font-size: 1rem;
+  color: #1f1f1f;
+  margin-bottom: 0.4rem;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 1.3rem;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+}
+
+form input:active,
+form textarea:active {
+  outline: none;
+}
+
+span {
+  color: red;
+  font-weight: normal;
+}
+
+textarea {
+  height: 8rem;
+  resize: vertical; /* Allows only vertical resizing */
+  /* overflow-x: hidden; */
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  width: 100%; /* Ensures it takes full width to avoid scrolling */
+}
+
+form button {
+  width: 100%;
+  background: #001d00;
+  color: white;
+  padding: 1rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  background: #00796b;
+}
+
+footer {
+  margin-top: 41rem;
 }

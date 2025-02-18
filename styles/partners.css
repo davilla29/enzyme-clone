@@ -5,7 +5,7 @@
   /* background-position: center; */
   background-size: contain;
   background-size: auto;
-  /* height: 70rem; */
+  height: auto;
   padding: 0.6rem 5.9rem;
   color: white;
   text-align: center;
@@ -24,9 +24,12 @@
 }
 
 .partner-btns {
+  display: flex;
+  gap: 2rem;
   justify-content: center;
+  align-items: center;
   flex-direction: row;
-  /* margin-bottom: 4rem; */
+  margin-bottom: 3rem;
 }
 
 .btn-5 {
@@ -80,5 +83,4 @@
 }
 
 @media (max-width: 1000px) {
- 
 }
