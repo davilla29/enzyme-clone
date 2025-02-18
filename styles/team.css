@@ -1,0 +1,46 @@
+/* Hero Section */
+.team-hero-section {
+  background-color: rgb(4, 81, 3);
+  /* height: auto; */
+  color: white;
+  text-align: center;
+  padding: 8rem 4rem 5rem;
+}
+
+.team-hero-section h2 {
+  width: 100%;
+  font-size: 3rem;
+}
+
+.team-hero-section p {
+  width: 100%;
+  padding: 1rem 10rem;
+  font-size: 1rem;
+}
+
+/* Managing Team Section */
+.managing-team-section {
+  padding: 1rem 4rem;
+}
+
+.managing-team-section h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.managing-team-images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* display: flex;
+  justify-content: center; */
+  gap: 2rem; 
+}
+
+.images h4 {
+  font-size: 1rem;
+  margin-top: -0.4rem;
+}
+
+.images p {
+  color: #1ea91c;
+}
