@@ -48,6 +48,10 @@ header {
   gap: 33px;
 }
 
+.nav-link {
+  position: relative;
+}
+
 .nav-link a,
 .nav-link a:visited {
   text-decoration: none;
@@ -63,6 +67,41 @@ header {
 
 .nav-link a i {
   margin-left: 0.1rem;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 1.7rem;
+  left: 0;
+  background: #fff;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 180px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  border-bottom: 2px solid black;
+  padding: 0.1rem;
+}
+
+.dropdown-menu li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem 0.9rem;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f0f0f0;
+  border-bottom: none;
 }
 
 #contact a {
@@ -113,6 +152,9 @@ header {
   border: 2px solid white;
   padding: 1rem 1.9rem;
   /* margin-left: 0.9rem; */
+}
+.btn-5 {
+  background: none;
 }
 
 .btn:hover {
