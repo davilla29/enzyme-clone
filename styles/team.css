@@ -29,18 +29,35 @@
   margin-bottom: 4rem;
 }
 .managing-team-images {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  /* display: flex;
-  justify-content: center; */
-  gap: 2rem; 
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr); */
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
 
-.images h4 {
+.team-images h4 {
   font-size: 1rem;
   margin-top: -0.4rem;
 }
 
-.images p {
+.team-images p {
   color: #1ea91c;
+}
+
+/* Advisory Board Section */
+.advisory-board-section {
+  padding: 1rem 4rem;
+}
+
+.advisory-board-section h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 4rem 0 3rem 0;
+}
+
+.advisory-board-images {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
