@@ -1,0 +1,75 @@
+/* Hero Section */
+.about-us-section {
+  background-image: url("../assets/images/AboutBackgroudImage.12dcb431.svg");
+  color: white;
+  text-align: center;
+  padding: 3rem 4rem;
+  height: auto;
+}
+
+.about-us-section h2 {
+  font-size: 4rem;
+  margin-top: 6rem;
+  /* border: 2px solid red; */
+}
+
+.about-us-section p {
+  /* border: 2px solid red; */
+  padding: 0 10rem;
+  /* margin-top: 3rem; */
+}
+
+.about-us-btns {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+.btn-6 {
+  padding: 0.7rem 1rem;
+}
+
+/* Structure Section */
+.structure-section {
+  padding: 5.2rem 5.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  width: 100%;
+}
+
+.structure-img {
+  width: 45%;
+}
+
+.structure-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.structure-content {
+  width: 50%;
+}
+
+.structure-content h2 {
+  font-size: 2.4rem;
+}
+
+.structure-content p {
+  font-size: 1.1rem;
+}
+
+/* Global Presence Section */
+.global-presence-section {
+  background-color: #1ea91c;
+  color: white;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+}

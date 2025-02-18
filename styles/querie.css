@@ -28,7 +28,7 @@
     margin: auto;
     border-radius: 15px;
     padding-top: 4.5rem;
-    display: none;
+    /* display: none; */
     z-index: 1100;
   }
 
