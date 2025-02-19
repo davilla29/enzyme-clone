@@ -1,11 +1,10 @@
 /* Hero Section */
 .partners-hero-section {
-  background-image: url("../assets/images/header-background.png");
+  background: url("../assets/images/header-background.png");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  /* background-position: center; */
-  background-size: contain;
-  background-size: auto;
-  height: auto;
   padding: 0.6rem 5.9rem;
   color: white;
   text-align: center;
@@ -76,7 +75,4 @@
   color: #045103;
   font-size: 1rem;
   font-weight: bold;
-}
-
-@media (max-width: 1000px) {
 }

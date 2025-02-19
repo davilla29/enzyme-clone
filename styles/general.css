@@ -69,6 +69,10 @@ header {
   margin-left: 0.1rem;
 }
 
+.normal-nav {
+  display: none;
+}
+
 .dropdown-menu {
   position: absolute;
   top: 1.7rem;
@@ -79,7 +83,7 @@ header {
   margin: 0;
   width: 180px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
+  /* border-radius: 5px; */
   display: none;
 }
 
@@ -87,8 +91,8 @@ header {
   display: block;
 }
 
-.dropdown-menu li {
-  border-bottom: 2px solid black;
+.dropdown-menu li:nth-child(1) {
+  border-bottom: 1px solid black;
   padding: 0.1rem;
 }
 
