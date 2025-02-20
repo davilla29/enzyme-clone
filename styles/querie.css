@@ -746,9 +746,18 @@
   .global-presence-content p {
     text-align: left;
     padding-left: 0.2rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.4;
     width: 100%;
+  }
+
+  .global-presence-img {
+    width: 100%;
+  }
+
+  .global-presence-img img {
+    width: 100%;
+    height: 100%;
   }
 
   /* Structure Section */
