@@ -27,6 +27,7 @@
   margin-top: 2rem;
   font-size: 2.8rem;
   line-height: 1.2;
+  text-align: justify;
 }
 
 .hero-text p {
@@ -35,6 +36,7 @@
   line-height: 1.5;
   width: 90%;
   margin-bottom: 2.4rem;
+  text-align: justify;
 }
 
 .hero-img img {
@@ -200,7 +202,7 @@
   line-height: 1.5;
   width: 90%;
   margin-bottom: 2.4rem;
-  text-align: left;
+  text-align: justify;
 }
 
 .thesis-img img {
@@ -255,6 +257,7 @@
   font-size: 1.2rem;
   line-height: 1.5;
   margin: 0.4rem 0 1rem 0;
+  text-align: justify;
 }
 
 .mission-link {

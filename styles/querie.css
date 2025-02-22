@@ -3,8 +3,12 @@
     flex-direction: column;
   }
 
+  .description {
+    text-align: justify;
+  }
+
   .footer-bottom {
-  text-align: left;
+    text-align: left;
   }
 
   .about-us-section p {
@@ -216,6 +220,7 @@
     width: 100%;
     font-size: 1.2rem;
     margin: 1.3rem 0 1rem 0;
+    text-align: justify;
   }
 
   .images-section {
@@ -747,8 +752,9 @@
     text-align: left;
     padding-left: 0.2rem;
     font-size: 1rem;
-    line-height: 1.4;
+    line-height: 1.7;
     width: 100%;
+    text-align: justify;
   }
 
   .global-presence-img {
